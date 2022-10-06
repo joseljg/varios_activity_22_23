@@ -28,4 +28,18 @@
         android:minHeight="48dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/bt_enviar_pantalla1"
         app:layout_constraintEnd_toStartOf="@+id/bt_enviar_pantalla1" />
+
+    <TextView
+        android:id="@+id/txt_recibido_pantalla1"
+        android:layout_width="349dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
